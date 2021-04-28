@@ -17,7 +17,7 @@ namespace Lab2_Pronin_Maksim
             {
                 if (value < 10 || value > 482.8)
                 {
-                    Console.WriteLine("Введите скорость из диапозона (10;482.8)");
+                    throw new ArgumentException("Введена некорректная скорость");
                 }
                 else
                 {
@@ -32,7 +32,7 @@ namespace Lab2_Pronin_Maksim
             {
                 if (value < 350 || value > 20000)
                 {
-                    Console.WriteLine("Введите массу из диапозона (350;20000)");
+                    throw new ArgumentException("Введена некорректная масса");
                 }
                 else
                 {
