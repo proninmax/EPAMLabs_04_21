@@ -27,8 +27,8 @@ namespace TestTriangle
             new object[] {5,5, 4},
             new object[] {16, 16, 3},
             new object[] {17,17, 4},
-            new object[] {5,7, 20},
-            new object[] {7,2, 15}
+            new object[] {15,7, 20},
+            new object[] {17,2, 16}
         };
 
     }
