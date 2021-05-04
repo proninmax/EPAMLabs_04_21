@@ -21,7 +21,7 @@ namespace Lab2_Pronin_Maksim
             {
                 if (value < 300 || value > 11000)
                 {
-                    Console.WriteLine("Введите скорость из диапозона (10;11000)");
+                    Console.WriteLine("Введите скорость из диапозона (300;11000)");
                 }
                 else
                 {
@@ -36,7 +36,7 @@ namespace Lab2_Pronin_Maksim
             {
                 if (value < 750 || value > 250000)
                 {
-                    Console.WriteLine("Введите массу из диапозона (350;20000)");
+                    Console.WriteLine("Введите массу из диапозона (750;20000)");
                 }
                 else
                 {
